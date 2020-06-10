@@ -1,0 +1,112 @@
+body
+{
+    text-align: center;
+    background: url(
+    drawing.jpg) center fixed;
+    background-size : cover;  
+    
+}
+#header
+{   
+    background:linear-gradient(#7f521c,white);
+     background:-webkit-linear-gradient(#7f521c,white);
+     background:-moz-linear-gradient(#7f521c,white);
+     background:-ms-linear-gradient(#7f521c,white);
+     background:-o-linear-gradient(#7f521c,white);
+    height :80px;
+    width:500px;
+    margin: 10px auto ;
+    font-size:3em;
+    line-height: 1.5;
+    
+}
+
+
+.inputContainer
+{
+    width:200px;
+    margin: 0 auto;
+}
+.input
+{
+    height: 30px;
+    font-size:1.3em;
+}
+#slider
+{
+    margin:10px auto;
+}
+#circle
+{
+    height:3px;
+    width:3px;
+    border-radius:50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#thickness
+{
+    position:relative;
+}
+#drawingpad{
+    
+    height:400px;
+    width: 500px;
+    border:1px solid black;
+    margin: 10px auto;
+    
+}
+.inputContainer2
+{
+    width : 399px;
+    margin : 40px auto;
+    
+}
+.input2
+{
+    width : 140 px;
+    color:#9f7d55;
+    font-size: 1.3em;
+    float :left;
+    
+}
+.button{
+    background: #ffff;
+    height: 50px;
+    padding: 10px;
+    border-radius : 3px;
+    font-weight : bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    margin-right: 45px;
+    position: relative;
+    
+}
+.button:hover
+{
+    color : white;
+    background-color:#9f7d55;
+ 
+}
+.button:active{
+    top:4px;
+}
+#paint
+{
+    background-color: white;
+    cursor:crosshair;
+}
+
+
+.eraseMode
+{
+    background-color: red;
+    color :white;
+}
